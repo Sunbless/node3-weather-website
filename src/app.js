@@ -38,7 +38,7 @@ app.get('/about', (req,res)=>{
 app.get ('/help', (req,res)=>{
     res.render('help',{
         title:'Help page',
-        message: 'This is where you can get all help that you need',
+        message: 'If you need help for use of this website, you really just should not use it',
         name:'Tanja Mcc'
     })
 })
